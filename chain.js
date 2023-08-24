@@ -34,3 +34,4 @@ const nestedObject = {
   
 console.log(nestedObject.address.country);
 console.log(nestedObject.education.university);
+console.log(nestedObject.education.state?.university);
